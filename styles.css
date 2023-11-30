@@ -1,0 +1,179 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header,
+.footer,
+.hero {
+    background-color: #1F2937;
+}
+
+.header,
+.footer,
+.hero,
+.randominfo,
+.testimonial,
+.test,
+.footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+a,
+#header-logo,
+#herotext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;    
+}
+
+#header-logo {
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: #1F2937;
+}
+
+#herohead {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.main button{
+    align-self: flex-start;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 50px;
+}
+
+.box{
+    border: 3px solid #3882F6;
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 8px;
+}
+
+#info{
+    font-weight: 800;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#inspiring {
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#author{
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 35px 100px 35px 100px;
+    border-radius: 5px;
+    gap: 100px;
+}
+
+#action{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call button{
+    border: #E5E7EB 1px solid;
+}
+
+.call div{
+    color: #F9FAF8;
+    font-size: small;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer div{
+    color: #F9FAF8;
+    font-size: small;
+}
+
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
